@@ -16,11 +16,32 @@ body, html {
 	font-weight: bold;
 	
 }
+.googleMap {
+	box-shadow: 0px 5px 15px 0px #f44242;
 
+}
+.a {
+	color: black;
+	text-decoration: none;
+}
 
 /* Second image (Portfolio) */
 .bgimg-2 {
     background-image: url("http://i64.tinypic.com/o0vvyv.png");
+    min-height: 300px;
+	 background-repeat: no-repeat;
+	 align: center;
+	 display: block;
+    margin: 0 auto;
+	    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+	box-shadow: 0px 5px 15px 0px #f44242;
+	}
+
+/* Third image (Portfolio) */
+.bgimg-3 {
+    background-image: url("https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/12331954_1083761958315287_1746632774_n.jpg");
     min-height: 300px;
 	 background-repeat: no-repeat;
 	 align: center;
@@ -136,7 +157,7 @@ body, html {
       <a href="#menu" class="w3-button w3-block w3-black w3-hover-red">MENU</a>
     </div>
     <div class="w3-col s3">
-      <a href="#where" class="w3-button w3-block w3-black w3-hover-red">RESERVE NOW</a>
+      <a href="#reserve" class="w3-button w3-block w3-black w3-hover-red">RESERVE NOW</a>
     </div>
 
   </div>
@@ -565,19 +586,24 @@ body, html {
   </div>
 </div>
 
-<!-- Contact/Area Container -->
-<div class="w3-container" id="where" style="padding-bottom:32px;">
-  <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">RESERVE NOW</span></h5>
-    
-  </div>
+ <div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle w3-center">
+    <span class="w3-xxlarge w3-text-white w3-wide w3-center"><br> <strong>RESERVE NOW</strong></span>
 </div>
 
-<!-- End page content -->
+
+
+
 </div>
+<div class="w3-container" id="reserve">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-32"><span class="w3-tag w3-wide">Make a reservation now using OpenTable below, or call 203.859.5999.</span></h5>
+    <p><center><script type='text/javascript' src='//www.opentable.com/widget/reservation/loader?rid=169096&domain=com&type=standard&theme=standard&lang=en-US&overlay=false&iframe=true'></script>
+ </p>
 
 <!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+<footer class="w3-center w3-black w3-padding-48 w3-large"><font size="-3"><i>© 2017 Atelier Florian. All rights reserved.</i></font>
+
 </footer>
 
 <!-- Add Google Maps -->
@@ -619,8 +645,6 @@ To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJmHZnS58bI9_OypvbZ2XHAL0oaz6vReI&callback=myMap"></script>
-
-<script type='text/javascript' src='//www.opentable.com/widget/reservation/loader?rid=169096&domain=com&type=standard&theme=wide&lang=en-US&overlay=false&iframe=true'></script>
 
 
 </body>
