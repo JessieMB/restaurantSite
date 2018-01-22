@@ -1,3 +1,3 @@
 ﻿# restaurantSite
  
- https://jessiemb.github.io/restaurantsite
+ https://jessiemb.github.io/restaurantSite
